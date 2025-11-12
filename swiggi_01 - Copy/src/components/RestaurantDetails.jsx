@@ -1,9 +1,13 @@
 import React from 'react'
-// import {}
+import { useParams } from 'react-router-dom'
 
 function RestaurantDetails() {
+
+
+    let { id } = useParams();
+    console.log(id, "id");
     return (
-        <div>Restaurant Details</div>
+        <div>RestaurantDetails</div>
     )
 }
 
